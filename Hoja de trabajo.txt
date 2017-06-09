@@ -1,0 +1,17 @@
+Que entiende por Commit?
+un commit se refiere a comprometer, o guardar los cambios tentativos o permanentes
+realizados a un proyecto
+
+Que entiende por Merge?
+Merge se refiere al proceso de unir cosas, en este caso se refiere a realizar la 
+union de las versiones o actualizaciones realizadas al proyecto
+
+Cual es la diferencia entre pull y push?
+la diferencia entre pull y push, es que pull se refiere a obtener o descargar la ultima
+version publicada en nuestro repositorio, mientras que push refiere a que luego de que 
+se haya realizado un commit o un cambio a nuestro proyecto el cambio se publique al repositorio 
+
+Como utilizar ramas?
+las ramas se utilizan para poder realizar actualizaciones o partes del proyecto sin
+afectar a lo que los demas trabajadores esten haciendo, sirve para resolver problemas sin
+eliminar lo que se ha hecho anteriormente
