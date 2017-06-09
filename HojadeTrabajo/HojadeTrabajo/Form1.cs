@@ -85,7 +85,7 @@ namespace HojadeTrabajo
             {
                 aux1 += y[t];
             }
-            MessageBox.Show("la palabra invertida es: " + aux + " " + aux1);
+            MessageBox.Show("la palabra invertida es: " + aux + " " + aux1 + "201404106");
         }
 
         private void button4_Click(object sender, EventArgs e)
