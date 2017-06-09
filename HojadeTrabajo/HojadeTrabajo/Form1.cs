@@ -69,5 +69,23 @@ namespace HojadeTrabajo
 
             
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string x = textBox1.Text;
+            string y = textBox2.Text;
+            string aux = "";
+            string aux1 = "";
+
+            for (int i = x.Length - 1; i >= 0; i--)
+            {
+                aux += x[i];
+            }
+            for (int t = y.Length - 1; t >= 0; t--)
+            {
+                aux1 += y[t];
+            }
+            MessageBox.Show("la palabra invertida es: " + aux + " " + aux1);
+        }
     }
 }
