@@ -35,5 +35,39 @@ namespace HojadeTrabajo
             
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           Boolean a1, e1, o1, i1, u1;
+            a1 = prueba('a');
+            e1 = prueba('e');
+            i1 = prueba('i');
+            o1 = prueba('o');
+            u1 = prueba('u');
+            if(a1 & e1 & o1 & i1 & u1 ==true){
+                MessageBox.Show("cumple");
+            }else
+	        {
+                MessageBox.Show("No Cumple");
+	        }
+           
+        }
+
+        public Boolean prueba(char x)
+        {
+            String y = textBox1.Text.ToLower();
+            for (int i = 0; i < y.Length; i++)
+            {
+                if (y[i] == x)
+                {
+                    return true;
+                }
+
+            }
+            return false;
+        
+
+            
+        }
     }
 }
