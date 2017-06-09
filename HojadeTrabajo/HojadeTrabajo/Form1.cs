@@ -87,5 +87,25 @@ namespace HojadeTrabajo
             }
             MessageBox.Show("la palabra invertida es: " + aux + " " + aux1);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int a = Convert.ToInt32(textBox1.Text);
+                int b = Convert.ToInt32(textBox2.Text);
+                int x = Convert.ToInt32(textBox3.Text);
+
+                int mul = x * b;
+                int resultado = mul / a;
+
+                MessageBox.Show("El resultado de la regla de tres es: " + resultado);
+            }
+            catch (Exception t)
+            {
+
+                MessageBox.Show("Ingresar datos validos para la operación");
+            }
+        }
     }
 }
